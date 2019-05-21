@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.geometry.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.paint.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="890.0" prefWidth="1133.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/2.2" fx:controller="pkgfinal.project.GUIControllerFour">
+  <children>
+    <Button id="btnStart2" fx:id="btnStart" layoutX="14.0" layoutY="20.0" mnemonicParsing="false" onAction="#handleButtonFourPlayer" prefHeight="27.0" prefWidth="64.0" text="Start!" visible="false" />
+    <GridPane fx:id="gT" gridLinesVisible="true" layoutX="356.0" layoutY="94.0" prefHeight="90.0" prefWidth="522.0">
+      <children>
+        <ImageView fx:id="imgT5" fitHeight="86.0" fitWidth="87.0" onMouseClicked="#handleWeaveT" pickOnBounds="true" preserveRatio="true" />
+        <ImageView fx:id="imgT4" fitHeight="86.0" fitWidth="87.0" onMouseClicked="#handleWeaveT" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="1" />
+        <ImageView fx:id="imgT3" fitHeight="86.0" fitWidth="87.0" onMouseClicked="#handleWeaveT" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="2" />
+        <ImageView fx:id="imgT2" fitHeight="86.0" fitWidth="87.0" onMouseClicked="#handleWeaveT" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="3" />
+        <ImageView fx:id="imgT1" fitHeight="86.0" fitWidth="87.0" onMouseClicked="#handleWeaveT" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="4" />
+        <ImageView fx:id="imgT0" fitHeight="86.0" fitWidth="87.0" onMouseClicked="#handleWeaveT" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="5" />
+      </children>
+      <columnConstraints>
+        <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+        <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+        <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+        <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+        <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+        <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+      </columnConstraints>
+      <rowConstraints>
+        <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+      </rowConstraints>
+    </GridPane>
+    <GridPane fx:id="gL" gridLinesVisible="true" layoutX="266.0" layoutY="184.0" prefHeight="522.0" prefWidth="90.0">
+      <children>
+        <ImageView fx:id="imgL0" fitHeight="86.0" fitWidth="87.0" onMouseClicked="#handleWeaveL" pickOnBounds="true" preserveRatio="true" />
+        <ImageView fx:id="imgL1" fitHeight="86.0" fitWidth="87.0" onMouseClicked="#handleWeaveL" pickOnBounds="true" preserveRatio="true" GridPane.rowIndex="1" />
+        <ImageView fx:id="imgL2" fitHeight="86.0" fitWidth="87.0" onMouseClicked="#handleWeaveL" pickOnBounds="true" preserveRatio="true" GridPane.rowIndex="2" />
+        <ImageView fx:id="imgL3" fitHeight="86.0" fitWidth="87.0" onMouseClicked="#handleWeaveL" pickOnBounds="true" preserveRatio="true" GridPane.rowIndex="3" />
+        <ImageView fx:id="imgL4" fitHeight="86.0" fitWidth="87.0" onMouseClicked="#handleWeaveL" pickOnBounds="true" preserveRatio="true" GridPane.rowIndex="4" />
+        <ImageView fx:id="imgL5" fitHeight="86.0" fitWidth="87.0" onMouseClicked="#handleWeaveL" pickOnBounds="true" preserveRatio="true" GridPane.rowIndex="5" />
+      </children>
+      <columnConstraints>
+        <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+      </columnConstraints>
+      <rowConstraints>
+        <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+        <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+        <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+        <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+        <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+        <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+      </rowConstraints>
+    </GridPane>
+    <GridPane fx:id="gR" gridLinesVisible="true" layoutX="878.0" layoutY="184.0" prefHeight="522.0" prefWidth="90.0">
+      <children>
+        <ImageView fx:id="imgR5" fitHeight="86.0" fitWidth="87.0" onMouseClicked="#handleWeaveR" pickOnBounds="true" preserveRatio="true" />
+        <ImageView fx:id="imgR4" fitHeight="86.0" fitWidth="87.0" onMouseClicked="#handleWeaveR" pickOnBounds="true" preserveRatio="true" GridPane.rowIndex="1" />
+        <ImageView fx:id="imgR3" fitHeight="86.0" fitWidth="87.0" onMouseClicked="#handleWeaveR" pickOnBounds="true" preserveRatio="true" GridPane.rowIndex="2" />
+        <ImageView fx:id="imgR2" fitHeight="86.0" fitWidth="87.0" onMouseClicked="#handleWeaveR" pickOnBounds="true" preserveRatio="true" GridPane.rowIndex="3" />
+        <ImageView fx:id="imgR1" fitHeight="86.0" fitWidth="87.0" onMouseClicked="#handleWeaveR" pickOnBounds="true" preserveRatio="true" GridPane.rowIndex="4" />
+        <ImageView fx:id="imgR0" fitHeight="86.0" fitWidth="87.0" onMouseClicked="#handleWeaveR" pickOnBounds="true" preserveRatio="true" GridPane.rowIndex="5" />
+      </children>
+      <columnConstraints>
+        <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+      </columnConstraints>
+      <rowConstraints>
+        <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+        <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+        <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+        <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+        <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+        <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+      </rowConstraints>
+    </GridPane>
+    <GridPane fx:id="gB" gridLinesVisible="true" layoutX="356.0" layoutY="706.0" prefHeight="90.0" prefWidth="522.0">
+      <children>
+        <ImageView fx:id="imgB0" fitHeight="86.0" fitWidth="87.0" onMouseClicked="#handleWeaveB" pickOnBounds="true" preserveRatio="true" />
+        <ImageView fx:id="imgB1" fitHeight="86.0" fitWidth="87.0" onMouseClicked="#handleWeaveB" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="1" />
+        <ImageView fx:id="imgB2" fitHeight="86.0" fitWidth="87.0" onMouseClicked="#handleWeaveB" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="2" />
+        <ImageView fx:id="imgB3" fitHeight="86.0" fitWidth="87.0" onMouseClicked="#handleWeaveB" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="3" />
+        <ImageView fx:id="imgB4" fitHeight="86.0" fitWidth="87.0" onMouseClicked="#handleWeaveB" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="4" />
+        <ImageView fx:id="imgB5" fitHeight="86.0" fitWidth="87.0" onMouseClicked="#handleWeaveB" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="5" />
+      </children>
+      <columnConstraints>
+        <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+        <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+        <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+        <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+        <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+        <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+      </columnConstraints>
+      <rowConstraints>
+        <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+      </rowConstraints>
+    </GridPane>
+    <Label fx:id="lblT5" alignment="CENTER" layoutX="385.0" layoutY="70.0" prefHeight="15.0" prefWidth="30.0" text="0" textFill="RED" />
+    <Label fx:id="lblT4" alignment="CENTER" layoutX="472.0" layoutY="70.0" prefHeight="15.0" prefWidth="30.0" text="0" textFill="RED" />
+    <Label fx:id="lblT3" alignment="CENTER" layoutX="559.0" layoutY="70.0" prefHeight="15.0" prefWidth="30.0" text="0" textFill="RED" />
+    <Label fx:id="lblT2" alignment="CENTER" layoutX="646.0" layoutY="70.0" prefHeight="15.0" prefWidth="30.0" text="0" textFill="RED" />
+    <Label fx:id="lblT1" alignment="CENTER" layoutX="733.0" layoutY="70.0" prefHeight="15.0" prefWidth="30.0" text="0" textFill="RED" />
+    <Label fx:id="lblT0" alignment="CENTER" layoutX="820.0" layoutY="70.0" prefHeight="15.0" prefWidth="30.0" text="0" textFill="RED" />
+    <Label fx:id="lblB0" alignment="CENTER" layoutX="386.0" layoutY="805.0" prefHeight="15.0" prefWidth="30.0" text="0">
+      <textFill>
+        <Color blue="0.000" green="0.800" red="0.256" fx:id="x1" />
+      </textFill>
+    </Label>
+    <Label fx:id="lblB1" alignment="CENTER" layoutX="473.0" layoutY="805.0" prefHeight="15.0" prefWidth="30.0" text="0" textFill="$x1" />
+    <Label fx:id="lblB2" alignment="CENTER" layoutX="560.0" layoutY="805.0" prefHeight="15.0" prefWidth="30.0" text="0" textFill="$x1" />
+    <Label fx:id="lblB3" alignment="CENTER" layoutX="647.0" layoutY="805.0" prefHeight="15.0" prefWidth="30.0" text="0" textFill="$x1" />
+    <Label fx:id="lblB4" alignment="CENTER" layoutX="734.0" layoutY="805.0" prefHeight="15.0" prefWidth="30.0" text="0" textFill="$x1" />
+    <Label fx:id="lblB5" alignment="CENTER" layoutX="821.0" layoutY="805.0" prefHeight="15.0" prefWidth="30.0" text="0" textFill="$x1" />
+    <Label fx:id="lblR5" alignment="CENTER" layoutX="975.0" layoutY="220.0" prefHeight="15.0" prefWidth="30.0" text="0">
+      <textFill>
+        <Color blue="1.000" green="0.520" red="0.200" fx:id="x2" />
+      </textFill>
+    </Label>
+    <Label fx:id="lblR4" alignment="CENTER" layoutX="975.0" layoutY="307.0" prefHeight="15.0" prefWidth="30.0" text="0" textFill="$x2" />
+    <Label fx:id="lblR3" alignment="CENTER" layoutX="975.0" layoutY="394.0" prefHeight="15.0" prefWidth="30.0" text="0" textFill="$x2" />
+    <Label fx:id="lblR2" alignment="CENTER" layoutX="975.0" layoutY="481.0" prefHeight="15.0" prefWidth="30.0" text="0" textFill="$x2" />
+    <Label fx:id="lblR1" alignment="CENTER" layoutX="975.0" layoutY="568.0" prefHeight="15.0" prefWidth="30.0" text="0" textFill="$x2" />
+    <Label fx:id="lblR0" alignment="CENTER" layoutX="975.0" layoutY="655.0" prefHeight="15.0" prefWidth="30.0" text="0" textFill="$x2" />
+    <Label fx:id="lblL0" alignment="CENTER" layoutX="227.0" layoutY="220.0" prefHeight="15.0" prefWidth="30.0" text="0" />
+    <Label fx:id="lblL1" alignment="CENTER" layoutX="227.0" layoutY="307.0" prefHeight="15.0" prefWidth="30.0" text="0" />
+    <Label fx:id="lblL2" alignment="CENTER" layoutX="227.0" layoutY="394.0" prefHeight="15.0" prefWidth="30.0" text="0" />
+    <Label fx:id="lblL3" alignment="CENTER" layoutX="227.0" layoutY="481.0" prefHeight="15.0" prefWidth="30.0" text="0" />
+    <Label fx:id="lblL4" alignment="CENTER" layoutX="227.0" layoutY="568.0" prefHeight="15.0" prefWidth="30.0" text="0" />
+    <Label fx:id="lblL5" alignment="CENTER" layoutX="227.0" layoutY="655.0" prefHeight="15.0" prefWidth="30.0" text="0" />
+    <Label id="lblB5" fx:id="lblBM" alignment="CENTER" layoutX="879.0" layoutY="708.0" prefHeight="86.00009999999747" prefWidth="90.0" text="0" textFill="$x1">
+      <font>
+        <Font name="System Bold" size="50.0" fx:id="x3" />
+      </font>
+    </Label>
+    <Label id="lblB5" fx:id="lblRM" alignment="CENTER" font="$x3" layoutX="879.0" layoutY="95.0" prefHeight="86.00009999999747" prefWidth="90.0" text="0" textFill="$x2" />
+    <Label id="lblB5" fx:id="lblTM" alignment="CENTER" font="$x3" layoutX="267.0" layoutY="94.0" prefHeight="86.00009999999747" prefWidth="90.0" text="0" textFill="RED" />
+    <Label id="lblB5" fx:id="lblLM" alignment="CENTER" font="$x3" layoutX="265.0" layoutY="706.0" prefHeight="86.00009999999747" prefWidth="90.0" text="0" />
+    <Label fx:id="lblM" alignment="CENTER" layoutX="494.0" layoutY="419.0" prefHeight="52.0" prefWidth="246.0" text="Player 1 Name?" textAlignment="CENTER" textFill="#ff934c">
+      <font>
+        <Font size="20.0" />
+      </font>
+    </Label>
+    <TextField fx:id="txtBox1" layoutX="503.0" layoutY="489.0" />
+    <Button fx:id="btnSubmit" layoutX="650.0" layoutY="489.0" minHeight="16.0" mnemonicParsing="false" onMouseClicked="#handleButtonSubmit" prefHeight="21.9998779296875" prefWidth="77.0" text="Submit" />
+    <Label fx:id="lblName1" alignment="CENTER" contentDisplay="CENTER" layoutX="879.0" layoutY="776.0" prefHeight="22.0" prefWidth="90.0" text="PLAYER 1" />
+    <Label fx:id="lblName2" alignment="CENTER" contentDisplay="CENTER" layoutX="878.0" layoutY="95.0" prefHeight="22.0" prefWidth="90.0" text="PLAYER 2" />
+    <Label fx:id="lblName3" alignment="CENTER" contentDisplay="CENTER" layoutX="267.0" layoutY="95.0" prefHeight="22.0" prefWidth="90.0" text="PLAYER 3" />
+    <Label fx:id="lblName4" alignment="CENTER" contentDisplay="CENTER" layoutX="265.0" layoutY="776.0" prefHeight="22.0" prefWidth="90.0" text="PLAYER 4" />
+  </children>
+</AnchorPane>
